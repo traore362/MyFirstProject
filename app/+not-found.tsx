@@ -1,5 +1,6 @@
+//4- importez Link composant afin de rédiriger à la racine au cas ou un intinéraire est introuvable 
 import { Link, Stack } from "expo-router";
-import { Text,View,StyleSheet  } from "react-native";
+import { View,StyleSheet  } from "react-native";
 
 
 export default function NotFoundScreen(){
