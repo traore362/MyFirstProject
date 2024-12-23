@@ -4,7 +4,7 @@ export default function AboutScreen(){
     return(
         <View style={styles.contenaire}>
             <Text style={styles.text}>
-                Abaout screen bonjour merci!!! 
+                Abaout screen 
             </Text>
             
         </View>
