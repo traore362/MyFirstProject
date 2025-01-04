@@ -19,11 +19,11 @@ export default function Button({label,theme,onPress}:Props){
             );
     }
     return(
-        <View style={style.buttonContainer}>
-                    <Pressable style={style.button} onPress={()=>alert('Vous avez appuyé sur un bouton')}>
-                        <Text style={style.buttonLabel}>{label}</Text>
-                    </Pressable>
-                </View>
+            <View style={style.buttonContainer}>
+                <Pressable style={style.button} onPress={onPress}>
+                    <Text style={style.buttonLabel}>{label}</Text>
+                </Pressable>
+           </View>
     )
 }
  const style = StyleSheet.create({
